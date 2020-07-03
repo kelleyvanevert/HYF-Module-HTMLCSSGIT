@@ -180,7 +180,7 @@ main section h2 {
 
   #grid-floats .grid-item img {
     margin-bottom: 30%;
-    width: 60%;
+    width: 50%;
   }
 
   #grid-floats .grid-item p {
@@ -368,8 +368,13 @@ FLEXBOX: TABLETS----
   }
 
   #grid-flex .grid-item img{
-    width: 60%;
+    width: 50%;
+    margin-top: 10%;
     margin-bottom: 30%;
+  }
+
+  #grid-flex .grid-item:hover img{
+    width: 85%;
   }
 }
 
